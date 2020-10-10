@@ -408,13 +408,14 @@ div#preloader {
   color: #fff;
   padding: 0;
   margin: 0;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   line-height: 1;
 }
 
 .sticky-logo h1 span {
   color: #3ec1d5;
+  font: 
 }
 .stick .main-menu ul.navbar-nav li.active > a::after {
   border: 1px solid #fff;
