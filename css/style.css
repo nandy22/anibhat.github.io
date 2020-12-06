@@ -412,7 +412,10 @@ div#preloader {
   font-weight: bold;
   line-height: 1;
 }
-
+.raised {
+  display: inline-block;
+  vertical-align: 12%;
+}
 .sticky-logo h1 span {
   color: #3ec1d5;
 }
