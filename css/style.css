@@ -199,7 +199,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  background: #ffc451;
+  background: #3EC1D5;
   color: #151515;
   float: left;
   width: 44px;
@@ -302,7 +302,7 @@ div#name {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #ffc451;
+  border-color: #3EC1D5;
 }
 
 .contact .php-email-form input {
@@ -314,7 +314,7 @@ div#name {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ffc451;
+  background: #3EC1D5;
   border: 0;
   padding: 10px 24px;
   color: #151515;
