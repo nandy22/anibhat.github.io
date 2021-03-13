@@ -197,7 +197,26 @@ section {
   background: #fff;
 }
 
+.contact .form-row {
+  width: 100%;
+  background: #fff;
+}
+
 .contact .info i {
+  font-size: 20px;
+  background: #3EC1D5;
+  color: #151515;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .form-row i {
   font-size: 20px;
   background: #3EC1D5;
   color: #151515;
@@ -217,6 +236,21 @@ section {
   font-weight: 600;
   margin-bottom: 5px;
   color: #151515;
+}
+
+.contact .form-row h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #151515;
+}
+
+.contact .form-row p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #484848;
 }
 
 .contact .info p {
