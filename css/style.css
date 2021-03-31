@@ -450,6 +450,10 @@ div#preloader {
   padding: 70px 0px 80px;
 }
 
+.careers {
+  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg") no-repeat fixed center top / cover;
+  height: 100%;
+}
 .area-padding-2 {
   padding: 70px 0px 50px;
 }
@@ -1865,6 +1869,7 @@ div#preloader {
 .contact-area {
   height: auto;
   width: 100%;
+  position: relative;
 }
 
 .contact-content {
