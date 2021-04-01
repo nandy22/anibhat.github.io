@@ -450,10 +450,6 @@ div#preloader {
   padding: 70px 0px 80px;
 }
 
-.careers {
-  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg") no-repeat fixed center top / cover;
-  height: 100%;
-}
 .area-padding-2 {
   padding: 70px 0px 50px;
 }
@@ -746,44 +742,54 @@ div#preloader {
 /* 4.Services Area
 /*--------------------------------*/
 
-.services-icon {
-  color: #444;
-  display: inline-block;
+/* Services Section
+--------------------------------*/
+
+#services {
+  background: #fff;
+  background-size: cover;
+  padding: 20px 0 10px 0;
+}
+
+#services .box {
+  margin-bottom: 30px;
+}
+
+#services .icon {
+  float: left;
+}
+
+#services .icon i {
+  color: #3ec1d5;
   font-size: 36px;
-  line-height: 36px;
-  margin-bottom: 20px;
+  line-height: 1;
+  transition: 0.5s;
 }
 
-.section-headline.services-head>h2 {
-  margin-bottom: 25px;
+#services .icon:hover i{
+  color: black;
 }
 
-.services-details {
-  padding-top: 40px;
-  transition: all 0.5s ease 0s;
+#services .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
-.services-details:hover h4, .services-details:hover .services-icon {
-  color: #3EC1D5;
+#services .title a {
+  color: #111;
 }
 
-.row.second-row {
-  margin-top: 40px;
+#services .box:hover .title a {
+  color: #3ec1d5;
 }
 
-.section-head>h2 {
-  color: #333;
-}
-
-.single-services>h4 {
-  color: #444;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.single-services>p {
-  color: #333;
+#services .description {
   font-size: 14px;
+  margin-left: 60px;
+  line-height: 24px;
+  margin-bottom: 0;
 }
 
 /*----------------------------------------
@@ -1867,14 +1873,13 @@ div#preloader {
 /*--------------------------------*/
 
 .contact-area {
+ 
   height: auto;
   width: 100%;
-  position: relative;
 }
 
 .contact-content {
   padding: 100px;
-  background: #000 none repeat scroll 0 0;
 }
 
 .contact-content-right {
@@ -2685,6 +2690,10 @@ span.email-notes {
   height: 50%;
 }
 
+
+.contact-area {
+ background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg") no-repeat fixed center top / cover;
+}
 
 /*----------------------------------------
  .End CSS
