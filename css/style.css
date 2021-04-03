@@ -2694,6 +2694,13 @@ span.email-notes {
 .contact-area {
  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg") no-repeat fixed center top / cover;
 }
+.anchor{
+  display: block;
+  position:absolute;
+  top:50%;
+  visibility: hidden;
+}
+
 
 /*----------------------------------------
  .End CSS
