@@ -2701,6 +2701,15 @@ span.email-notes {
   visibility: hidden;
 }
 
+.mobile {
+  display: none;
+}
+@media (max-width: 320px) {
+  .mobile {
+    display: block;
+    /* Add other properties here */
+  }
+}
 
 /*----------------------------------------
  .End CSS
