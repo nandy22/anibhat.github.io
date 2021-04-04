@@ -2711,6 +2711,16 @@ span.email-notes {
   }
 }
 
+.mobile {
+  display: block;
+}
+@media (max-width: 320px) {
+  .mobile {
+    display: block;
+    /* Add other properties here */
+  }
+}
+
 /*----------------------------------------
  .End CSS
 ----------------------------------------*/
